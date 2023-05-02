@@ -27,7 +27,7 @@ a:hover {
     color: rgb(136, 113, 113);;
 }
 
-ul {
+.navbar ul {
     display: flex;
     gap: 50px;
 }
@@ -187,4 +187,45 @@ img {
 
 hr {
     margin: 20px 0;
+}
+
+.InfoLinks {
+    padding: 60px 0;
+    background-color: rgb(61, 60, 60);
+    color: white;
+}
+
+.special {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.cols {
+    display: flex;
+    justify-content: space-between;
+}
+.cols h2 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.cols li {
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.cols hr {
+    color: rgb(238, 232, 232);
+    height: 0.5px;
+}
+
+footer {
+    background-color: rgb(88, 87, 87);
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+footer p {
+    font-size: 15px;
 }
