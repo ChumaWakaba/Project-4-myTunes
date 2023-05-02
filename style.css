@@ -32,11 +32,15 @@ ul {
     gap: 50px;
 }
 
+header {
+    position: sticky;
+    top: 0;
+}
+
 .navbar {
     padding: 15px 20px;
     background-color: rgb(61, 60, 60);
     font-size: 15px;
-    /* position: fixed; */
 }
 
 .Overview {
@@ -62,6 +66,7 @@ h2 {
 p {
     font-size: 1.2rem;
     padding: 5px;
+    line-height: 30px;
 }
 
 .Music {
@@ -98,4 +103,25 @@ button:hover {
 .caption {
     font-size: 15px;
     margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+.Video {
+    text-align: center;
+    color: rgb(61, 60, 60);
+    padding: 60px 0;
+    background-color: rgb(233, 228, 228);
+}
+
+.ReadMore {
+    background-color: rgb(35, 35, 87);
+}
+
+.ReadMore:hover {
+    background-color: rgb(35, 35, 129);
 }
