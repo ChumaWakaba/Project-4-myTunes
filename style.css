@@ -151,7 +151,6 @@ img {
   max-width: 50%;
   height: auto;
   object-fit: cover;
-  /* height: auto; */
 }
 
 .Giftcards i {
@@ -180,7 +179,7 @@ img {
 }
 
 footer p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .Giftcards p {
