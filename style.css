@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+}
+
+.navbar {
+    padding: 15px 20px;
+    background-color: rgb(61, 60, 60);
+    color: rgb(238, 232, 232);
+    font-size: 15px;
+    /* position: fixed; */
+}
+
+.Overview {
+    text-align: center;
+    color: white;
+    background-image: url(./images/guitar-men-dark-monochrome-wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 100px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 1.1rem;
+    padding: 5px;
+}
